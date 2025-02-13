@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to Dasshboard</title>
+    <!--Font style-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,500&family=Yeseva+One&display=swap" rel="stylesheet">
+    <!--Font-Awesome-->
+    <script src="https://kit.fontawesome.com/8b95fc0eac.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            background-color: gray;
+            font-family: "poppins",serif;
+        }
+        .Login-box {
+            width: 300px;
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            gap: 15px;
+            flex-direction: column;
+            padding: 50px 30px;
+        }
+        .social-us {
+            text-align: center;
+            font-size: 65px;
+        }
+        .Login-box .sing-up {
+            text-align: center;
+            font-size: 10px;
+            text-decoration: none;
+        }
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            padding:5px;
+        }
+    
+.input-group .forget-password {
+    font-size: 12px;
+    text-align: right;
+    text-decoration: none;
+    padding: 3px;
+}
+.input-group .input-field {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+ input {
+    width: 100%;
+    border: none;
+    padding: 0 10px;
+}
+input:focus {
+    outline: none;
+}
+button {
+  background-image: linear-gradient(rgba(0, 229, 255, 0.998),rgba(196, 18, 196, 0.957));
+  padding: 9px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 100%;
+  border-radius: 20px;
+}
+button a {
+    color:white;
+    text-decoration: none;
+}
+button:hover {
+    background-image: linear-gradient(rgba(0, 255, 195, 0.938),rgba(196, 18, 95, 0.925));
+}
+::placeholder {
+    font-size: 12px;
+    color: brown;
+    opacity: 1;
+}
+.big {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.content {
+    font-size: 10px;
+    text-align: center;
+}
+.social-fb {
+color: blue;
+font-size: 30px;
+padding: 0 3px;
+}
+.social-tw {
+    color: #12a3dc;
+    font-size: 30px;
+    padding: 0 3px;
+}
+.social-go {
+    color: brown;
+    font-size: 30px;
+    padding: 0 3px;
+}
+.sing-up a {
+    font-size: 9px;
+    text-align: center;
+    text-decoration: none;
+}
+.sing-up {
+    padding:10px;
+}
+.content a {
+    text-decoration: none;
+}
+.user {
+    font-size: 15px;
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="Login-box">
+        <i class="fa-solid fa-user social-us"></i>
+        <form action="login.html">
+       <div class="input-group">
+        <div class="user">
+        <label for="">Username</label>
+    </div>
+        <div class="input-field">
+            <i class="fa-regular fa-user" ></i>
+        <input type="text" placeholder="Type your Username"/>
+        </div>
+       </div>
+       <div class="input-group">
+        <div class="user">
+        <label for="">Password</label>
+        </div>
+        <div class="input-field">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password"placeholder="Type your Password" />
+    </div>
+        <a href="forget-password.html" class="forget-password">Forget Password?</a>
+       </div>
+       <button>
+        <a href="">LOGIN</a>
+    </button>
+    <div class="sing-up">
+    <a href="SignUp.html">Or Sing Up Using</a>
+</div>
+    <div class="big">
+        <i class="fa-brands fa-facebook social-fb" ></i>
+        <i class="fa-brands fa-square-twitter social-tw"></i>
+        <i class="fa-brands fa-google-plus social-go"></i>
+    </div>
+    <br><br><br>
+    <div class="content">
+        <a href="SignUp.html">Or Sing Up Using</a><br>
+        <a href="SignUp.html">SING UP</a>
+    </div>
+</form>
+    </div>
+</body>
+</html>
